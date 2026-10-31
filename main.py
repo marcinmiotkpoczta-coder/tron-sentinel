@@ -16,7 +16,7 @@ import argparse
 import json
 import logging
 import sys
-
+from tvm_analyzer import TVMBytecodeAnalyzer
 from core.checks import analyze_contract_risk
 from core.node_connector import (
     InvalidAddressError,
