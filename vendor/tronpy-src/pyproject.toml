@@ -1,0 +1,129 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "tronpy"
+dynamic = ["version"]
+requires-python = ">=3.9"
+description = "TRON Python client library"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [
+    { name = "andelf", email = "andelf@gmail.com" },
+    { name = "MrNaif2018", email = "chuff184@gmail.com" },
+]
+readme = "README.md"
+keywords = ["tron", "api", "blockchain"]
+classifiers = [
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: System Administrators",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+]
+dependencies = [
+    "base58",
+    "coincurve",
+    # Coincurve v21.0.0 is broken with python 3.14.
+    # See issue: https://github.com/ofek/coincurve/issues/219
+    "coincurve>=20.0.0,<21.0.0;python_version=='3.14'",
+    "eth-abi>=5.0.0,<6.0.0",
+    "httpx",
+    "pycryptodome<4",
+    "requests",
+]
+
+[project.optional-dependencies]
+mnemonic = ["mnemonic==0.20"]
+offline = ["protobuf"]
+
+[project.urls]
+Homepage = "https://github.com/andelf/tronpy"
+Repository = "https://github.com/andelf/tronpy"
+Documentation = "https://tronpy.readthedocs.io"
+
+[dependency-groups]
+dev = [
+    "pytest",
+    "pytest-cov",
+    "pytest-asyncio",
+    "mypy",
+    "codecov",
+    "pre-commit",
+    "freezegun",
+    "ruff>=0.12.3",
+    "taskipy>=1.14.1",
+]
+docs = ["sphinx"]
+
+[tool.taskipy.tasks]
+lint = { cmd = "ruff format . && ruff check --fix .", help = "run linters with autofix" }
+lint_check = { cmd = "ruff format --check . && ruff check .", help = "run ruff linter" }
+test = { cmd = "pytest tests/ ${TEST_ARGS}", help = "run tests" }
+ci = { cmd = "task lint_check && task test", help = "run ci checks" }
+
+[tool.hatch.version]
+path = "tronpy/version.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["tronpy"]
+
+[tool.ruff]
+target-version = "py39"
+line-length = 127
+exclude = ["tronpy/proto/tron_pb2.*"]
+
+[tool.ruff.lint]
+select = [
+    "F",
+    "E",
+    "I",
+    "UP",
+    "YTT",
+    "B",
+    "T10",
+    "C",
+    "SIM",
+    "RUF100",
+    "RET",
+    "A",
+    "S",
+    "ASYNC",
+    "TID",
+]
+unfixable = ["F401"]
+ignore = ["RET502", "RET503", "S104", "S507", "ASYNC110"]
+mccabe = { max-complexity = 12 }
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["S"]
+
+[tool.mypy]
+ignore_missing_imports = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+disallow_any_generics = true
+check_untyped_defs = true
+no_implicit_reexport = true
+strict_equality = true
+disallow_untyped_defs = true
+skip_cache_mtime_checks = true
+exclude = ["tests"]
+
+[tool.pytest.ini_options]
+addopts = ["--cov=.", "--cov-report", "term-missing"]
+filterwarnings = [
+    "error::DeprecationWarning",
+    "error::PendingDeprecationWarning",
+]
+
+[tool.coverage.run]
+omit = ["*__init__.py", "tests/*", "venv/*", "env/*", "setup.py"]

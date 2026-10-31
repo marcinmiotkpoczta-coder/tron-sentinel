@@ -1,0 +1,1661 @@
+{
+ "address": "TNUC9Qb1rRpS5CbWLmNMxXBjyFoydXjWFR",
+ "is_contract": true,
+ "hex_address": "41891cdb91d149f23b1a45d9c5ca78a88d0cb44c18",
+ "node": {
+  "endpoint": "https://tron-rpc.publicnode.com",
+  "api_key_used": false,
+  "timeout_s": 15.0
+ },
+ "has_code": true,
+ "bytecode_bytes": 2715,
+ "bytecode": "60c0604052600b60808190527f577261707065642054525800000000000000000000000000000000000000000060a090815261003e91600091906100bd565b506040805180820190915260048082527f57545258000000000000000000000000000000000000000000000000000000006020909201918252610083916001916100bd565b506002805460ff1916600617905534801561009d57600080fd5b50d380156100aa57600080fd5b50d280156100b757600080fd5b50610158565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106100fe57805160ff191683800117855561012b565b8280016001018555821561012b579182015b8281111561012b578251825591602001919060010190610110565b5061013792915061013b565b5090565b61015591905b808211156101375760008155600101610141565b90565b610934806101676000396000f3006080604052600436106100b95763ffffffff7c010000000000000000000000000000000000000000000000000000000060003504166306fdde0381146100c3578063095ea7b31461016757806318160ddd146101b957806323b872dd146101fa5780632e1a7d4d1461023e578063313ce5671461027057806370a08231146102b557806395d89b41146102f0578063a9059cbb1461031f578063d0e30db0146100b9578063daea85c51461035d578063dd62ed3e14610398575b6100c16103d9565b005b3480156100cf57600080fd5b50d380156100dc57600080fd5b50d280156100e957600080fd5b506100f2610430565b6040805160208082528351818301528351919283929083019185019080838360005b8381101561012c578181015183820152602001610114565b50505050905090810190601f1680156101595780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b34801561017357600080fd5b50d3801561018057600080fd5b50d2801561018d57600080fd5b506101a5600160a060020a03600435166024356104be565b604080519115158252519081900360200190f35b3480156101c557600080fd5b50d380156101d257600080fd5b50d280156101df57600080fd5b506101e8610524565b60408051918252519081900360200190f35b34801561020657600080fd5b50d3801561021357600080fd5b50d2801561022057600080fd5b506101a5600160a060020a036004358116906024351660443561052a565b34801561024a57600080fd5b50d3801561025757600080fd5b50d2801561026457600080fd5b506100c16004356106f4565b34801561027c57600080fd5b50d3801561028957600080fd5b50d2801561029657600080fd5b5061029f610837565b6040805160ff9092168252519081900360200190f35b3480156102c157600080fd5b50d380156102ce57600080fd5b50d280156102db57600080fd5b506101e8600160a060020a0360043516610840565b3480156102fc57600080fd5b50d3801561030957600080fd5b50d2801561031657600080fd5b506100f261085b565b34801561032b57600080fd5b50d3801561033857600080fd5b50d2801561034557600080fd5b506101a5600160a060020a03600435166024356108b5565b34801561036957600080fd5b50d3801561037657600080fd5b50d2801561038357600080fd5b506101a5600160a060020a03600435166108c9565b3480156103a457600080fd5b50d380156103b157600080fd5b50d280156103be57600080fd5b506101e8600160a060020a03600435811690602435166108dd565b336000818152600460209081526040918290208054349081019091556003805482019055825190815291517fe1fffcc4923d04b559f4d29a8bfc6cda04eb5b0d3c460751c2402c5c5cc9109c9281900390910190a2565b6000805460408051602060026001851615610100026000190190941693909304601f810184900484028201840190925281815292918301828280156104b65780601f1061048b576101008083540402835291602001916104b6565b820191906000526020600020905b81548152906001019060200180831161049957829003601f168201915b505050505081565b336000818152600560209081526040808320600160a060020a038716808552908352818420869055815186815291519394909390927f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925928290030190a350600192915050565b60035490565b600160a060020a03831660009081526004602052604081205482111561059a576040805160e560020a62461bcd02815260206004820152601660248201527f7372632062616c616e6365206e6f7420656e6f75676800000000000000000000604482015290519081900360640190fd5b600160a060020a03841633148015906105d85750600160a060020a038416600090815260056020908152604080832033845290915290205460001914155b1561068357600160a060020a0384166000908152600560209081526040808320338452909152902054821115610658576040805160e560020a62461bcd02815260206004820152601b60248201527f73726320616c6c6f77616e6365206973206e6f7420656e6f7567680000000000604482015290519081900360640190fd5b600160a060020a03841660009081526005602090815260408083203384529091529020805483900390555b600160a060020a03808516600081815260046020908152604080832080548890039055938716808352918490208054870190558351868152935191937fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef929081900390910190a35060019392505050565b3360009081526004602052604090205481111561075b576040805160e560020a62461bcd02815260206004820152601260248201527f6e6f7420656e6f7567682062616c616e63650000000000000000000000000000604482015290519081900360640190fd5b6003548111156107b5576040805160e560020a62461bcd02815260206004820152601660248201527f6e6f7420656e6f75676820746f74616c537570706c7900000000000000000000604482015290519081900360640190fd5b33600081815260046020526040808220805485900390555183156108fc0291849190818181858888f193505050501580156107f4573d6000803e3d6000fd5b5060038054829003905560408051828152905133917f7fcf532c15f0a6db0bd6d0e038bea71d30d808c7d98cb3bf7268a95bf5081b65919081900360200190a250565b60025460ff1681565b600160a060020a031660009081526004602052604090205490565b60018054604080516020600284861615610100026000190190941693909304601f810184900484028201840190925281815292918301828280156104b65780601f1061048b576101008083540402835291602001916104b6565b60006108c233848461052a565b9392505050565b60006108d7826000196104be565b92915050565b600160a060020a039182166000908152600560209081526040808320939094168252919091522054905600a165627a7a72305820de01668e1b85e0e80149ee7f00a1d361b8c8409a6cac071c21b51b04c357c8520029",
+ "abi": [
+  {
+   "constant": true,
+   "name": "name",
+   "outputs": [
+    {
+     "type": "string"
+    }
+   ],
+   "type": "Function",
+   "stateMutability": "View"
+  },
+  {
+   "name": "approve",
+   "inputs": [
+    {
+     "name": "guy",
+     "type": "address"
+    },
+    {
+     "name": "sad",
+     "type": "uint256"
+    }
+   ],
+   "outputs": [
+    {
+     "type": "bool"
+    }
+   ],
+   "type": "Function",
+   "stateMutability": "Nonpayable"
+  },
+  {
+   "constant": true,
+   "name": "totalSupply",
+   "outputs": [
+    {
+     "type": "uint256"
+    }
+   ],
+   "type": "Function",
+   "stateMutability": "View"
+  },
+  {
+   "name": "transferFrom",
+   "inputs": [
+    {
+     "name": "src",
+     "type": "address"
+    },
+    {
+     "name": "dst",
+     "type": "address"
+    },
+    {
+     "name": "sad",
+     "type": "uint256"
+    }
+   ],
+   "outputs": [
+    {
+     "type": "bool"
+    }
+   ],
+   "type": "Function",
+   "stateMutability": "Nonpayable"
+  },
+  {
+   "name": "withdraw",
+   "inputs": [
+    {
+     "name": "sad",
+     "type": "uint256"
+    }
+   ],
+   "type": "Function",
+   "stateMutability": "Nonpayable"
+  },
+  {
+   "constant": true,
+   "name": "decimals",
+   "outputs": [
+    {
+     "type": "uint8"
+    }
+   ],
+   "type": "Function",
+   "stateMutability": "View"
+  },
+  {
+   "constant": true,
+   "name": "balanceOf",
+   "inputs": [
+    {
+     "name": "guy",
+     "type": "address"
+    }
+   ],
+   "outputs": [
+    {
+     "type": "uint256"
+    }
+   ],
+   "type": "Function",
+   "stateMutability": "View"
+  },
+  {
+   "constant": true,
+   "name": "symbol",
+   "outputs": [
+    {
+     "type": "string"
+    }
+   ],
+   "type": "Function",
+   "stateMutability": "View"
+  },
+  {
+   "name": "transfer",
+   "inputs": [
+    {
+     "name": "dst",
+     "type": "address"
+    },
+    {
+     "name": "sad",
+     "type": "uint256"
+    }
+   ],
+   "outputs": [
+    {
+     "type": "bool"
+    }
+   ],
+   "type": "Function",
+   "stateMutability": "Nonpayable"
+  },
+  {
+   "name": "deposit",
+   "type": "Function",
+   "payable": true,
+   "stateMutability": "Payable"
+  },
+  {
+   "name": "approve",
+   "inputs": [
+    {
+     "name": "guy",
+     "type": "address"
+    }
+   ],
+   "outputs": [
+    {
+     "type": "bool"
+    }
+   ],
+   "type": "Function",
+   "stateMutability": "Nonpayable"
+  },
+  {
+   "constant": true,
+   "name": "allowance",
+   "inputs": [
+    {
+     "name": "src",
+     "type": "address"
+    },
+    {
+     "name": "guy",
+     "type": "address"
+    }
+   ],
+   "outputs": [
+    {
+     "type": "uint256"
+    }
+   ],
+   "type": "Function",
+   "stateMutability": "View"
+  },
+  {
+   "type": "Fallback",
+   "payable": true,
+   "stateMutability": "Payable"
+  },
+  {
+   "name": "Approval",
+   "inputs": [
+    {
+     "indexed": true,
+     "name": "src",
+     "type": "address"
+    },
+    {
+     "indexed": true,
+     "name": "guy",
+     "type": "address"
+    },
+    {
+     "name": "sad",
+     "type": "uint256"
+    }
+   ],
+   "type": "Event"
+  },
+  {
+   "name": "Transfer",
+   "inputs": [
+    {
+     "indexed": true,
+     "name": "src",
+     "type": "address"
+    },
+    {
+     "indexed": true,
+     "name": "dst",
+     "type": "address"
+    },
+    {
+     "name": "sad",
+     "type": "uint256"
+    }
+   ],
+   "type": "Event"
+  },
+  {
+   "name": "Deposit",
+   "inputs": [
+    {
+     "indexed": true,
+     "name": "dst",
+     "type": "address"
+    },
+    {
+     "name": "sad",
+     "type": "uint256"
+    }
+   ],
+   "type": "Event"
+  },
+  {
+   "name": "Withdrawal",
+   "inputs": [
+    {
+     "indexed": true,
+     "name": "src",
+     "type": "address"
+    },
+    {
+     "name": "sad",
+     "type": "uint256"
+    }
+   ],
+   "type": "Event"
+  }
+ ],
+ "functions": [
+  {
+   "name": "allowance",
+   "state_mutability": "view",
+   "constant": true,
+   "payable": false,
+   "signature": "allowance(address,address)",
+   "selector": "dd62ed3e",
+   "inputs": [
+    {
+     "name": "src",
+     "type": "address"
+    },
+    {
+     "name": "guy",
+     "type": "address"
+    }
+   ],
+   "outputs": [
+    {
+     "type": "uint256"
+    }
+   ]
+  },
+  {
+   "name": "approve",
+   "state_mutability": "nonpayable",
+   "constant": false,
+   "payable": false,
+   "signature": "approve(address,uint256)",
+   "selector": "095ea7b3",
+   "inputs": [
+    {
+     "name": "guy",
+     "type": "address"
+    },
+    {
+     "name": "sad",
+     "type": "uint256"
+    }
+   ],
+   "outputs": [
+    {
+     "type": "bool"
+    }
+   ]
+  },
+  {
+   "name": "approve",
+   "state_mutability": "nonpayable",
+   "constant": false,
+   "payable": false,
+   "signature": "approve(address,uint256)",
+   "selector": "095ea7b3",
+   "inputs": [
+    {
+     "name": "guy",
+     "type": "address"
+    },
+    {
+     "name": "sad",
+     "type": "uint256"
+    }
+   ],
+   "outputs": [
+    {
+     "type": "bool"
+    }
+   ]
+  },
+  {
+   "name": "balanceOf",
+   "state_mutability": "view",
+   "constant": true,
+   "payable": false,
+   "signature": "balanceOf(address)",
+   "selector": "70a08231",
+   "inputs": [
+    {
+     "name": "guy",
+     "type": "address"
+    }
+   ],
+   "outputs": [
+    {
+     "type": "uint256"
+    }
+   ]
+  },
+  {
+   "name": "decimals",
+   "state_mutability": "view",
+   "constant": true,
+   "payable": false,
+   "signature": "decimals()",
+   "selector": "313ce567",
+   "inputs": [],
+   "outputs": [
+    {
+     "type": "uint8"
+    }
+   ]
+  },
+  {
+   "name": "deposit",
+   "state_mutability": "payable",
+   "constant": false,
+   "payable": true,
+   "signature": "deposit()",
+   "selector": "d0e30db0",
+   "inputs": [],
+   "outputs": []
+  },
+  {
+   "name": "name",
+   "state_mutability": "view",
+   "constant": true,
+   "payable": false,
+   "signature": "name()",
+   "selector": "06fdde03",
+   "inputs": [],
+   "outputs": [
+    {
+     "type": "string"
+    }
+   ]
+  },
+  {
+   "name": "symbol",
+   "state_mutability": "view",
+   "constant": true,
+   "payable": false,
+   "signature": "symbol()",
+   "selector": "95d89b41",
+   "inputs": [],
+   "outputs": [
+    {
+     "type": "string"
+    }
+   ]
+  },
+  {
+   "name": "totalSupply",
+   "state_mutability": "view",
+   "constant": true,
+   "payable": false,
+   "signature": "totalSupply()",
+   "selector": "18160ddd",
+   "inputs": [],
+   "outputs": [
+    {
+     "type": "uint256"
+    }
+   ]
+  },
+  {
+   "name": "transfer",
+   "state_mutability": "nonpayable",
+   "constant": false,
+   "payable": false,
+   "signature": "transfer(address,uint256)",
+   "selector": "a9059cbb",
+   "inputs": [
+    {
+     "name": "dst",
+     "type": "address"
+    },
+    {
+     "name": "sad",
+     "type": "uint256"
+    }
+   ],
+   "outputs": [
+    {
+     "type": "bool"
+    }
+   ]
+  },
+  {
+   "name": "transferFrom",
+   "state_mutability": "nonpayable",
+   "constant": false,
+   "payable": false,
+   "signature": "transferFrom(address,address,uint256)",
+   "selector": "23b872dd",
+   "inputs": [
+    {
+     "name": "src",
+     "type": "address"
+    },
+    {
+     "name": "dst",
+     "type": "address"
+    },
+    {
+     "name": "sad",
+     "type": "uint256"
+    }
+   ],
+   "outputs": [
+    {
+     "type": "bool"
+    }
+   ]
+  },
+  {
+   "name": "withdraw",
+   "state_mutability": "nonpayable",
+   "constant": false,
+   "payable": false,
+   "signature": "withdraw(uint256)",
+   "selector": "2e1a7d4d",
+   "inputs": [
+    {
+     "name": "sad",
+     "type": "uint256"
+    }
+   ],
+   "outputs": []
+  }
+ ],
+ "events": [
+  {
+   "name": "Approval",
+   "inputs": [
+    {
+     "indexed": true,
+     "name": "src",
+     "type": "address"
+    },
+    {
+     "indexed": true,
+     "name": "guy",
+     "type": "address"
+    },
+    {
+     "name": "sad",
+     "type": "uint256"
+    }
+   ]
+  },
+  {
+   "name": "Deposit",
+   "inputs": [
+    {
+     "indexed": true,
+     "name": "dst",
+     "type": "address"
+    },
+    {
+     "name": "sad",
+     "type": "uint256"
+    }
+   ]
+  },
+  {
+   "name": "Transfer",
+   "inputs": [
+    {
+     "indexed": true,
+     "name": "src",
+     "type": "address"
+    },
+    {
+     "indexed": true,
+     "name": "dst",
+     "type": "address"
+    },
+    {
+     "name": "sad",
+     "type": "uint256"
+    }
+   ]
+  },
+  {
+   "name": "Withdrawal",
+   "inputs": [
+    {
+     "indexed": true,
+     "name": "src",
+     "type": "address"
+    },
+    {
+     "name": "sad",
+     "type": "uint256"
+    }
+   ]
+  }
+ ],
+ "constructor": null,
+ "resource": {
+  "freeNetLimit": 600,
+  "assetNetUsed": [
+   {
+    "key": "1004108",
+    "value": 0
+   },
+   {
+    "key": "1002962",
+    "value": 0
+   },
+   {
+    "key": "1004106",
+    "value": 0
+   },
+   {
+    "key": "1003774",
+    "value": 0
+   },
+   {
+    "key": "1004346",
+    "value": 0
+   },
+   {
+    "key": "1004347",
+    "value": 0
+   },
+   {
+    "key": "1003533",
+    "value": 0
+   },
+   {
+    "key": "1003134",
+    "value": 0
+   },
+   {
+    "key": "1004069",
+    "value": 0
+   },
+   {
+    "key": "1004102",
+    "value": 0
+   },
+   {
+    "key": "1004344",
+    "value": 0
+   },
+   {
+    "key": "1004862",
+    "value": 0
+   },
+   {
+    "key": "1000947",
+    "value": 0
+   },
+   {
+    "key": "1004060",
+    "value": 0
+   },
+   {
+    "key": "1003495",
+    "value": 0
+   },
+   {
+    "key": "1005157",
+    "value": 0
+   },
+   {
+    "key": "1004100",
+    "value": 0
+   },
+   {
+    "key": "1004342",
+    "value": 0
+   },
+   {
+    "key": "1004980",
+    "value": 0
+   },
+   {
+    "key": "1003650",
+    "value": 0
+   },
+   {
+    "key": "1003890",
+    "value": 0
+   },
+   {
+    "key": "1003095",
+    "value": 0
+   },
+   {
+    "key": "1004185",
+    "value": 0
+   },
+   {
+    "key": "1004182",
+    "value": 0
+   },
+   {
+    "key": "1003646",
+    "value": 0
+   },
+   {
+    "key": "1004977",
+    "value": 0
+   },
+   {
+    "key": "1002830",
+    "value": 0
+   },
+   {
+    "key": "1004338",
+    "value": 0
+   },
+   {
+    "key": "1000772",
+    "value": 0
+   },
+   {
+    "key": "1004059",
+    "value": 0
+   },
+   {
+    "key": "1004213",
+    "value": 0
+   },
+   {
+    "key": "1003641",
+    "value": 0
+   },
+   {
+    "key": "1005026",
+    "value": 0
+   },
+   {
+    "key": "1003406",
+    "value": 0
+   },
+   {
+    "key": "1004210",
+    "value": 0
+   },
+   {
+    "key": "1004178",
+    "value": 0
+   },
+   {
+    "key": "1005023",
+    "value": 0
+   },
+   {
+    "key": "1004330",
+    "value": 0
+   },
+   {
+    "key": "1004295",
+    "value": 0
+   },
+   {
+    "key": "1005141",
+    "value": 0
+   },
+   {
+    "key": "1004172",
+    "value": 0
+   },
+   {
+    "key": "1003954",
+    "value": 0
+   },
+   {
+    "key": "1000322",
+    "value": 0
+   },
+   {
+    "key": "1004008",
+    "value": 0
+   },
+   {
+    "key": "1004125",
+    "value": 0
+   },
+   {
+    "key": "1003439",
+    "value": 0
+   },
+   {
+    "key": "1002748",
+    "value": 0
+   },
+   {
+    "key": "1005050",
+    "value": 0
+   },
+   {
+    "key": "1004081",
+    "value": 0
+   },
+   {
+    "key": "1003394",
+    "value": 0
+   },
+   {
+    "key": "1003670",
+    "value": 0
+   },
+   {
+    "key": "1004085",
+    "value": 0
+   },
+   {
+    "key": "1004086",
+    "value": 0
+   },
+   {
+    "key": "1004083",
+    "value": 0
+   },
+   {
+    "key": "1003546",
+    "value": 0
+   },
+   {
+    "key": "1004633",
+    "value": 0
+   },
+   {
+    "key": "1004356",
+    "value": 0
+   },
+   {
+    "key": "1004917",
+    "value": 0
+   },
+   {
+    "key": "1003946",
+    "value": 0
+   },
+   {
+    "key": "1004191",
+    "value": 0
+   },
+   {
+    "key": "1004071",
+    "value": 0
+   },
+   {
+    "key": "1004192",
+    "value": 0
+   },
+   {
+    "key": "1004111",
+    "value": 0
+   },
+   {
+    "key": "1004112",
+    "value": 0
+   },
+   {
+    "key": "1004197",
+    "value": 0
+   },
+   {
+    "key": "1004351",
+    "value": 0
+   },
+   {
+    "key": "1004198",
+    "value": 0
+   },
+   {
+    "key": "1003218",
+    "value": 0
+   },
+   {
+    "key": "1005119",
+    "value": 0
+   },
+   {
+    "key": "1000985",
+    "value": 0
+   },
+   {
+    "key": "1004305",
+    "value": 0
+   },
+   {
+    "key": "1004787",
+    "value": 0
+   },
+   {
+    "key": "1003695",
+    "value": 0
+   },
+   {
+    "key": "1005114",
+    "value": 0
+   },
+   {
+    "key": "1002928",
+    "value": 0
+   },
+   {
+    "key": "1004705",
+    "value": 0
+   },
+   {
+    "key": "1005193",
+    "value": 0
+   },
+   {
+    "key": "1004024",
+    "value": 0
+   },
+   {
+    "key": "1002000",
+    "value": 0
+   },
+   {
+    "key": "1005074",
+    "value": 0
+   },
+   {
+    "key": "1003963",
+    "value": 0
+   },
+   {
+    "key": "1004018",
+    "value": 0
+   },
+   {
+    "key": "1002239",
+    "value": 0
+   },
+   {
+    "key": "1002992",
+    "value": 0
+   },
+   {
+    "key": "1004379",
+    "value": 0
+   },
+   {
+    "key": "1003564",
+    "value": 0
+   },
+   {
+    "key": "1003685",
+    "value": 0
+   },
+   {
+    "key": "1002597",
+    "value": 0
+   },
+   {
+    "key": "1003604",
+    "value": 0
+   },
+   {
+    "key": "1003846",
+    "value": 0
+   },
+   {
+    "key": "1003605",
+    "value": 0
+   },
+   {
+    "key": "1004092",
+    "value": 0
+   },
+   {
+    "key": "1004090",
+    "value": 0
+   },
+   {
+    "key": "1004133",
+    "value": 0
+   },
+   {
+    "key": "1004134",
+    "value": 0
+   },
+   {
+    "key": "1005065",
+    "value": 0
+   },
+   {
+    "key": "1004251",
+    "value": 0
+   },
+   {
+    "key": "1004205",
+    "value": 0
+   },
+   {
+    "key": "1001612",
+    "value": 0
+   },
+   {
+    "key": "1001854",
+    "value": 0
+   },
+   {
+    "key": "1003513",
+    "value": 0
+   },
+   {
+    "key": "1001611",
+    "value": 0
+   },
+   {
+    "key": "1001699",
+    "value": 0
+   },
+   {
+    "key": "1005138",
+    "value": 0
+   },
+   {
+    "key": "1003475",
+    "value": 0
+   },
+   {
+    "key": "1000002",
+    "value": 0
+   },
+   {
+    "key": "1003518",
+    "value": 0
+   },
+   {
+    "key": "1002669",
+    "value": 0
+   },
+   {
+    "key": "1003879",
+    "value": 0
+   },
+   {
+    "key": "1004209",
+    "value": 0
+   },
+   {
+    "key": "1003638",
+    "value": 0
+   },
+   {
+    "key": "1003594",
+    "value": 0
+   },
+   {
+    "key": "1004045",
+    "value": 0
+   },
+   {
+    "key": "1005011",
+    "value": 0
+   },
+   {
+    "key": "1002263",
+    "value": 0
+   },
+   {
+    "key": "1002413",
+    "value": 0
+   },
+   {
+    "key": "1002775",
+    "value": 0
+   },
+   {
+    "key": "1003746",
+    "value": 0
+   },
+   {
+    "key": "1003867",
+    "value": 0
+   },
+   {
+    "key": "1003623",
+    "value": 0
+   },
+   {
+    "key": "1002013",
+    "value": 0
+   },
+   {
+    "key": "1002651",
+    "value": 0
+   },
+   {
+    "key": "1004952",
+    "value": 0
+   },
+   {
+    "key": "1005127",
+    "value": 0
+   },
+   {
+    "key": "1002939",
+    "value": 0
+   },
+   {
+    "key": "1004319",
+    "value": 0
+   },
+   {
+    "key": "1003506",
+    "value": 0
+   },
+   {
+    "key": "1002493",
+    "value": 0
+   },
+   {
+    "key": "1004310",
+    "value": 0
+   },
+   {
+    "key": "1005002",
+    "value": 0
+   },
+   {
+    "key": "1005122",
+    "value": 0
+   },
+   {
+    "key": "1004032",
+    "value": 0
+   },
+   {
+    "key": "1004153",
+    "value": 0
+   },
+   {
+    "key": "1004151",
+    "value": 0
+   },
+   {
+    "key": "1004031",
+    "value": 0
+   },
+   {
+    "key": "1004152",
+    "value": 0
+   }
+  ],
+  "assetNetLimit": [
+   {
+    "key": "1004108",
+    "value": 0
+   },
+   {
+    "key": "1002962",
+    "value": 0
+   },
+   {
+    "key": "1004106",
+    "value": 0
+   },
+   {
+    "key": "1003774",
+    "value": 0
+   },
+   {
+    "key": "1004346",
+    "value": 0
+   },
+   {
+    "key": "1004347",
+    "value": 0
+   },
+   {
+    "key": "1003533",
+    "value": 0
+   },
+   {
+    "key": "1003134",
+    "value": 0
+   },
+   {
+    "key": "1004069",
+    "value": 0
+   },
+   {
+    "key": "1004102",
+    "value": 0
+   },
+   {
+    "key": "1004344",
+    "value": 0
+   },
+   {
+    "key": "1004862",
+    "value": 1
+   },
+   {
+    "key": "1000947",
+    "value": 0
+   },
+   {
+    "key": "1004060",
+    "value": 0
+   },
+   {
+    "key": "1003495",
+    "value": 0
+   },
+   {
+    "key": "1005157",
+    "value": 0
+   },
+   {
+    "key": "1004100",
+    "value": 0
+   },
+   {
+    "key": "1004342",
+    "value": 0
+   },
+   {
+    "key": "1004980",
+    "value": 1000000
+   },
+   {
+    "key": "1003650",
+    "value": 0
+   },
+   {
+    "key": "1003890",
+    "value": 0
+   },
+   {
+    "key": "1003095",
+    "value": 0
+   },
+   {
+    "key": "1004185",
+    "value": 0
+   },
+   {
+    "key": "1004182",
+    "value": 0
+   },
+   {
+    "key": "1003646",
+    "value": 0
+   },
+   {
+    "key": "1004977",
+    "value": 1
+   },
+   {
+    "key": "1002830",
+    "value": 0
+   },
+   {
+    "key": "1004338",
+    "value": 0
+   },
+   {
+    "key": "1000772",
+    "value": 0
+   },
+   {
+    "key": "1004059",
+    "value": 0
+   },
+   {
+    "key": "1004213",
+    "value": 0
+   },
+   {
+    "key": "1003641",
+    "value": 0
+   },
+   {
+    "key": "1005026",
+    "value": 0
+   },
+   {
+    "key": "1003406",
+    "value": 0
+   },
+   {
+    "key": "1004210",
+    "value": 0
+   },
+   {
+    "key": "1004178",
+    "value": 0
+   },
+   {
+    "key": "1005023",
+    "value": 0
+   },
+   {
+    "key": "1004330",
+    "value": 0
+   },
+   {
+    "key": "1004295",
+    "value": 0
+   },
+   {
+    "key": "1005141",
+    "value": 0
+   },
+   {
+    "key": "1004172",
+    "value": 0
+   },
+   {
+    "key": "1003954",
+    "value": 0
+   },
+   {
+    "key": "1000322",
+    "value": 0
+   },
+   {
+    "key": "1004008",
+    "value": 0
+   },
+   {
+    "key": "1004125",
+    "value": 0
+   },
+   {
+    "key": "1003439",
+    "value": 0
+   },
+   {
+    "key": "1002748",
+    "value": 0
+   },
+   {
+    "key": "1005050",
+    "value": 0
+   },
+   {
+    "key": "1004081",
+    "value": 0
+   },
+   {
+    "key": "1003394",
+    "value": 0
+   },
+   {
+    "key": "1003670",
+    "value": 0
+   },
+   {
+    "key": "1004085",
+    "value": 0
+   },
+   {
+    "key": "1004086",
+    "value": 0
+   },
+   {
+    "key": "1004083",
+    "value": 0
+   },
+   {
+    "key": "1003546",
+    "value": 0
+   },
+   {
+    "key": "1004633",
+    "value": 0
+   },
+   {
+    "key": "1004356",
+    "value": 0
+   },
+   {
+    "key": "1004917",
+    "value": 0
+   },
+   {
+    "key": "1003946",
+    "value": 0
+   },
+   {
+    "key": "1004191",
+    "value": 0
+   },
+   {
+    "key": "1004071",
+    "value": 0
+   },
+   {
+    "key": "1004192",
+    "value": 0
+   },
+   {
+    "key": "1004111",
+    "value": 0
+   },
+   {
+    "key": "1004112",
+    "value": 0
+   },
+   {
+    "key": "1004197",
+    "value": 0
+   },
+   {
+    "key": "1004351",
+    "value": 0
+   },
+   {
+    "key": "1004198",
+    "value": 0
+   },
+   {
+    "key": "1003218",
+    "value": 0
+   },
+   {
+    "key": "1005119",
+    "value": 0
+   },
+   {
+    "key": "1000985",
+    "value": 0
+   },
+   {
+    "key": "1004305",
+    "value": 0
+   },
+   {
+    "key": "1004787",
+    "value": 0
+   },
+   {
+    "key": "1003695",
+    "value": 0
+   },
+   {
+    "key": "1005114",
+    "value": 0
+   },
+   {
+    "key": "1002928",
+    "value": 0
+   },
+   {
+    "key": "1004705",
+    "value": 0
+   },
+   {
+    "key": "1005193",
+    "value": 0
+   },
+   {
+    "key": "1004024",
+    "value": 0
+   },
+   {
+    "key": "1002000",
+    "value": 0
+   },
+   {
+    "key": "1005074",
+    "value": 0
+   },
+   {
+    "key": "1003963",
+    "value": 0
+   },
+   {
+    "key": "1004018",
+    "value": 0
+   },
+   {
+    "key": "1002239",
+    "value": 0
+   },
+   {
+    "key": "1002992",
+    "value": 0
+   },
+   {
+    "key": "1004379",
+    "value": 0
+   },
+   {
+    "key": "1003564",
+    "value": 0
+   },
+   {
+    "key": "1003685",
+    "value": 0
+   },
+   {
+    "key": "1002597",
+    "value": 0
+   },
+   {
+    "key": "1003604",
+    "value": 0
+   },
+   {
+    "key": "1003846",
+    "value": 0
+   },
+   {
+    "key": "1003605",
+    "value": 0
+   },
+   {
+    "key": "1004092",
+    "value": 0
+   },
+   {
+    "key": "1004090",
+    "value": 0
+   },
+   {
+    "key": "1004133",
+    "value": 0
+   },
+   {
+    "key": "1004134",
+    "value": 0
+   },
+   {
+    "key": "1005065",
+    "value": 0
+   },
+   {
+    "key": "1004251",
+    "value": 0
+   },
+   {
+    "key": "1004205",
+    "value": 0
+   },
+   {
+    "key": "1001612",
+    "value": 0
+   },
+   {
+    "key": "1001854",
+    "value": 0
+   },
+   {
+    "key": "1003513",
+    "value": 0
+   },
+   {
+    "key": "1001611",
+    "value": 0
+   },
+   {
+    "key": "1001699",
+    "value": 0
+   },
+   {
+    "key": "1005138",
+    "value": 0
+   },
+   {
+    "key": "1003475",
+    "value": 0
+   },
+   {
+    "key": "1000002",
+    "value": 0
+   },
+   {
+    "key": "1003518",
+    "value": 0
+   },
+   {
+    "key": "1002669",
+    "value": 0
+   },
+   {
+    "key": "1003879",
+    "value": 0
+   },
+   {
+    "key": "1004209",
+    "value": 0
+   },
+   {
+    "key": "1003638",
+    "value": 0
+   },
+   {
+    "key": "1003594",
+    "value": 0
+   },
+   {
+    "key": "1004045",
+    "value": 0
+   },
+   {
+    "key": "1005011",
+    "value": 1000000
+   },
+   {
+    "key": "1002263",
+    "value": 0
+   },
+   {
+    "key": "1002413",
+    "value": 0
+   },
+   {
+    "key": "1002775",
+    "value": 0
+   },
+   {
+    "key": "1003746",
+    "value": 0
+   },
+   {
+    "key": "1003867",
+    "value": 0
+   },
+   {
+    "key": "1003623",
+    "value": 0
+   },
+   {
+    "key": "1002013",
+    "value": 0
+   },
+   {
+    "key": "1002651",
+    "value": 0
+   },
+   {
+    "key": "1004952",
+    "value": 0
+   },
+   {
+    "key": "1005127",
+    "value": 0
+   },
+   {
+    "key": "1002939",
+    "value": 0
+   },
+   {
+    "key": "1004319",
+    "value": 0
+   },
+   {
+    "key": "1003506",
+    "value": 0
+   },
+   {
+    "key": "1002493",
+    "value": 0
+   },
+   {
+    "key": "1004310",
+    "value": 0
+   },
+   {
+    "key": "1005002",
+    "value": 80000
+   },
+   {
+    "key": "1005122",
+    "value": 0
+   },
+   {
+    "key": "1004032",
+    "value": 0
+   },
+   {
+    "key": "1004153",
+    "value": 0
+   },
+   {
+    "key": "1004151",
+    "value": 0
+   },
+   {
+    "key": "1004031",
+    "value": 0
+   },
+   {
+    "key": "1004152",
+    "value": 0
+   }
+  ],
+  "TotalNetLimit": 43200000000,
+  "TotalNetWeight": 26605946384,
+  "TotalEnergyLimit": 180000000000,
+  "TotalEnergyWeight": 18475752172
+ },
+ "warnings": [
+  "TRONGRID_API_KEY not set -> anonymous rate limits apply"
+ ]
+}

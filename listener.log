@@ -1,0 +1,47 @@
+2026-10-31 19:58:06,774 INFO telethon.crypto.aes: libssl detected, it will be used for encryption
+2026-10-31 19:58:06,788 INFO telethon.network.mtprotosender: Connecting to 149.154.167.91:443/TcpFull...
+2026-10-31 19:58:06,879 INFO telethon.network.mtprotosender: Connection to 149.154.167.91:443/TcpFull complete!
+2026-10-31 19:58:07,563 INFO listener: signed in as Mi0d3 (id 867679277)
+2026-10-31 19:58:07,563 WARNING listener: no channels configured (TG_CHANNELS / --channels): following ALL dialogs
+2026-10-31 19:58:07,563 INFO listener: listening ... ctrl+c to stop
+2026-10-31 20:01:03,239 INFO telethon.client.updates: Got difference for channel 1177769571 updates
+2026-10-31 20:01:08,204 WARNING listener: skip TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t: rate limited (HTTP 429) for get_contract_info -- set TRONGRID_API_KEY or retry later
+2026-10-31 20:01:59,627 INFO telethon.client.updates: Got difference for channel 1893844778 updates
+2026-10-31 20:01:59,747 INFO telethon.client.updates: Got difference for channel 1177769571 updates
+2026-10-31 20:02:24,069 INFO telethon.client.updates: Got difference for channel 1848216339 updates
+2026-10-31 20:03:03,360 INFO telethon.client.updates: Got difference for channel 1177769571 updates
+2026-10-31 20:03:47,424 INFO telethon.client.updates: Got difference for channel 1177769571 updates
+2026-10-31 20:03:54,033 INFO telethon.client.updates: Got difference for channel 1177769571 updates
+2026-10-31 20:05:56,711 WARNING listener: skip TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t: rate limited (HTTP 429) for get_contract_info -- set TRONGRID_API_KEY or retry later
+2026-10-31 20:06:46,895 INFO telethon.client.updates: Got difference for channel 1848216339 updates
+2026-10-31 20:07:54,783 INFO telethon.client.updates: Got difference for channel 1848216339 updates
+2026-10-31 20:09:03,913 INFO telethon.client.updates: Got difference for channel 1848216339 updates
+2026-10-31 20:09:03,998 INFO telethon.client.updates: Got difference for channel 1282005971 updates
+2026-10-31 20:09:04,099 INFO telethon.client.updates: Got difference for channel 1177769571 updates
+2026-10-31 20:10:04,791 WARNING listener: skip TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t: rate limited (HTTP 429) for get_contract_info -- set TRONGRID_API_KEY or retry later
+2026-10-31 20:10:45,061 INFO telethon.client.updates: Got difference for channel 1177769571 updates
+2026-10-31 20:11:50,947 WARNING listener: skip TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t: rate limited (HTTP 429) for get_contract_info -- set TRONGRID_API_KEY or retry later
+2026-10-31 20:12:39,157 INFO telethon.client.updates: Got difference for channel 1177769571 updates
+2026-10-31 20:13:43,267 WARNING listener: skip TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t: rate limited (HTTP 429) for get_contract_info -- set TRONGRID_API_KEY or retry later
+2026-10-31 20:16:08,375 INFO telethon.client.updates: Got difference for channel 1177769571 updates
+2026-10-31 20:16:16,557 INFO telethon.client.updates: Got difference for channel 1177769571 updates
+2026-10-31 20:19:17,811 INFO telethon.crypto.aes: libssl detected, it will be used for encryption
+2026-10-31 20:19:17,825 INFO telethon.network.mtprotosender: Connecting to 149.154.167.91:443/TcpFull...
+2026-10-31 20:19:17,900 INFO telethon.network.mtprotosender: Connection to 149.154.167.91:443/TcpFull complete!
+2026-10-31 20:19:18,844 INFO listener: signed in as Mi0d3 (id 867679277)
+2026-10-31 20:19:18,845 WARNING listener: no channels configured (TG_CHANNELS / --channels): following ALL dialogs
+2026-10-31 20:19:18,845 INFO listener: listening ... ctrl+c to stop
+2026-10-31 20:19:42,548 INFO core.node_connector: fetched TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t: 46 ABI entries, 15575 bytes of code
+2026-10-31 20:19:42,549 INFO listener: 1677513121 TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t -> HIGH (92)
+2026-10-31 20:20:57,539 INFO telethon.client.updates: Got difference for channel 1177769571 updates
+2026-10-31 20:23:41,883 INFO telethon.client.updates: Got difference for channel 1177769571 updates
+2026-10-31 20:25:59,348 INFO telethon.client.updates: Got difference for channel 1177769571 updates
+2026-10-31 20:27:48,803 INFO telethon.client.updates: Got difference for channel 1177769571 updates
+2026-10-31 20:30:19,882 INFO telethon.client.updates: Got difference for channel 1282005971 updates
+2026-10-31 20:31:56,514 INFO telethon.client.updates: Got difference for channel 1177769571 updates
+2026-10-31 20:32:20,013 INFO telethon.client.updates: Got difference for channel 1195673120 updates
+2026-10-31 20:32:58,322 INFO telethon.client.updates: Got difference for channel 1177769571 updates
+2026-10-31 20:33:20,137 INFO telethon.client.updates: Got difference for channel 1848216339 updates
+2026-10-31 20:34:18,783 INFO telethon.client.updates: Got difference for account updates
+2026-10-31 20:34:42,392 INFO telethon.client.updates: Got difference for channel 1101170442 updates
+2026-10-31 20:36:00,002 INFO telethon.client.updates: Got difference for channel 1848216339 updates
