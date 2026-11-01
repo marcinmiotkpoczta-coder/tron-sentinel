@@ -174,7 +174,15 @@ class RiskPipeline:
         while len(self._already_flagged) > self._seen_cap:
             self._already_flagged.popitem(last=False)
 
-    def analyze(self, address: str) -> Optional[Tuple[Dict[str, Any], Dict[str, Any]]]:
+    WHITELIST = {
+        "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",  # USDT
+        "TEkxiTehnzSmSe2XqrBj4w32RUN966rdz8",  # USDC
+        "T9yD14Nj9j7xAB4dbGeiX9h8unkKHxuWwb"   # USDD
+    }
+
+    def analyze(self, address: str):
+        if address in self.WHITELIST:
+            return None
         try:
             info = get_contract_info(address, self.cfg.node)
         except NodeConnectorError as exc:
