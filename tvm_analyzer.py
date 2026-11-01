@@ -23,7 +23,15 @@ class TVMBytecodeAnalyzer:
         except Exception:
             return ""
 
+    WHITELIST = {
+        "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",  # USDT
+        "TEkxiTehnzSmSe2XqrBj4w32RUN966rdz8",  # USDC
+        "T9yD14Nj9j7xAB4dbGeiX9h8unkKHxuWwb"   # USDD
+    }
+
     def scan_contract(self, contract_address: str) -> dict:
+        if contract_address in self.WHITELIST:
+            return {"contract": contract_address, "risk_level": "SAFE", "risk_score": 0, "detected_selectors": [], "transfer_blocker_detected": False, "message": "Whitelista"}
         """Przeprowadza heurystyczną analizę statyczną bajtkodu TVM."""
         bytecode = self.fetch_bytecode(contract_address)
         if not bytecode:
